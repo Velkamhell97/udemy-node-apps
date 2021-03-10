@@ -36,6 +36,7 @@ const listMenu = async (options = [], message = '') => {
     {
       type:'list',
       name:'selectedOption',
+      message:message,
       choices:options
     }
   ]
