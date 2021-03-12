@@ -52,10 +52,6 @@ const listMenu = async (options = [], message = '') => {
   return selectedOption.selectedOption;
 }
 
-const checkboxMenu = async (options = [], message = '') => {
-
-}
-
 const inputMenu = async (message = '', validation) => {
   const questions = [
     {
@@ -68,10 +64,6 @@ const inputMenu = async (message = '', validation) => {
   const { inputValue } = await inquirer.prompt(questions)
 
   return inputValue;
-}
-
-const confirmMenu = async () => {
-
 }
 
 module.exports = {

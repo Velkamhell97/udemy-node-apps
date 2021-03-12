@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config();
 require('colors');
 
 const { listMenu, inputMenu } = require('./helpers/inquirer');
